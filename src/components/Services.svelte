@@ -1,6 +1,6 @@
 <script lang="ts">
     import Divider from '$lib/components/Divider.svelte'
-    import { SITE_NAME} from '$lib/variables'
+    import { PUBLIC_SITE_NAME } from '$env/static/public';
 </script>
 
 <section class="section-style px-6 md:px-0">
@@ -30,7 +30,7 @@
                         class="w-44"
                         width="176px"
                         height="176px"
-                        alt="{SITE_NAME} - Custom Web Development" />
+                        alt="{PUBLIC_SITE_NAME} - Custom Web Development" />
                 </div>
                 <div aria-hidden="true" class="absolute bg-service inset-0 transition duration-300 group-hover:scale-105 lg:group-hover:scale-105" />
                 <div class="relative text-left space-y-4 p-6 md:p-8 md:mt-5">
@@ -49,7 +49,7 @@
                         class="w-44"
                         width="176px"
                         height="176px"
-                        alt="{SITE_NAME} - Custom Web Development" />
+                        alt="{PUBLIC_SITE_NAME} - Custom Web Development" />
                 </div>
                 <div aria-hidden="true" class="absolute bg-service inset-0 transition duration-300 group-hover:scale-105 lg:group-hover:scale-105" />
                 <div class="relative text-left space-y-4 p-6 md:p-8 md:mt-5 ">
@@ -66,7 +66,7 @@
                         class="w-44"
                         width="176px"
                         height="176px"
-                        alt="{SITE_NAME} - Custom Web Development" />
+                        alt="{PUBLIC_SITE_NAME} - Custom Web Development" />
                 </div>
                 <div aria-hidden="true" class="absolute bg-service inset-0 transition duration-300 group-hover:scale-105 lg:group-hover:scale-105" />
                 <div class="relative text-left space-y-4 p-6 md:p-8 md:mt-5">
@@ -85,7 +85,7 @@
                         class="w-44"
                         width="176px"
                         height="176px"
-                        alt="{SITE_NAME} - Custom Web Development" />
+                        alt="{PUBLIC_SITE_NAME} - Custom Web Development" />
                 </div>
                 <div aria-hidden="true" class="absolute bg-service inset-0 transition duration-300 group-hover:scale-105 lg:group-hover:scale-105" />
                 <div class="relative text-left space-y-4 p-6 md:p-8 md:mt-5">

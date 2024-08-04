@@ -2,7 +2,7 @@
 	// @ts-nocheck
 
 	import Logo from '../components/Logo.svelte';
-	import { SITE_NAME, PT_NAME, URL_BASE } from '$lib/variables';
+	import { PUBLIC_PT_NAME, PUBLIC_URL_BASE } from '$env/static/public';
 	import Divider from '$lib/components/Divider.svelte';
 	import { ToggleCore } from 'svelte-toggle';
 	import { locale } from '$lib/i18n';
@@ -100,7 +100,7 @@
 				<div class="sm:flex sm:items-center sm:justify-between mb-4">
 					<span class="text-white sm:text-center dark:text-white text-base">
 						<i class="fa-regular fa-copyright" /> 2023
-						<a href={URL_BASE}>{PT_NAME}</a>, All Rights Reserved.
+						<a href={PUBLIC_URL_BASE}>{PUBLIC_PT_NAME}</a>, All Rights Reserved.
 					</span>
 					<div class="flex my-4 space-x-8 sm:justify-center sm:mt-0 items-center">
 						<a
