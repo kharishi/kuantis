@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Divider from '$lib/components/Divider.svelte';
-	import { SITE_NAME } from '$lib/variables';
+	import { PUBLIC_SITE_NAME } from '$env/static/public';
 </script>
 
 <section class="z-20 mt-10 section-style dark:bg-none max-w-5xl mx-auto rounded-lg">
@@ -20,7 +20,7 @@
 					<img
 						src="images/bg-streamline.svg"
 						class="relative w-full z-20"
-						alt="{SITE_NAME} - Streamline"
+						alt="{PUBLIC_SITE_NAME} - Streamline"
 					/>
 				</div>
 			</div>

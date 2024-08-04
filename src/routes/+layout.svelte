@@ -7,7 +7,7 @@
 	import { t } from '$lib/i18n';
 	import { page } from '$app/stores';
 	import PageTransition from '$lib/components/PageTransition.svelte';
-	import { URL_BASE, SITE_NAME, MODE, SITE_DESCRIPTION  } from '$lib/variables';
+	import { PUBLIC_SITE_NAME, PUBLIC_URL_BASE, PUBLIC_SITE_DESCRIPTION } from '$env/static/public';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 	// import { attr } from 'svelte/internal'
 
@@ -59,8 +59,8 @@
 </script>
 
 <svelte:head>
-	<title>{SITE_NAME} - {SITE_DESCRIPTION}</title>
-	<meta name="description" content={SITE_DESCRIPTION} />
+	<title>{PUBLIC_SITE_NAME} - {PUBLIC_SITE_DESCRIPTION}</title>
+	<meta name="description" content={PUBLIC_SITE_DESCRIPTION} />
 </svelte:head>
 <svelte:window bind:scrollY={yScreen} />
 

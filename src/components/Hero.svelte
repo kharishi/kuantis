@@ -1,7 +1,7 @@
 <script>
 	import { t } from '$lib/i18n';
 	import {} from '@skeletonlabs/skeleton';
-	import { SITE_NAME } from '$lib/variables';
+	import { PUBLIC_SITE_NAME } from '$env/static/public';
 </script>
 
 <section class="w-full my-12 group section-style -z-50">
@@ -31,7 +31,7 @@
 					<img
 						src="images/services-web-development-noback.svg"
 						class="w-full"
-						alt="{SITE_NAME} - Custom Web Development"
+						alt="{PUBLIC_SITE_NAME} - Custom Web Development"
 					/>
 				</div>
 			</div>
